@@ -12,6 +12,8 @@
 		5B7B816A2A2EB7F100BAC02C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B7B81692A2EB7F100BAC02C /* Assets.xcassets */; };
 		5B7B816D2A2EB7F100BAC02C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B7B816C2A2EB7F100BAC02C /* Preview Assets.xcassets */; };
 		5B7B81752A2EB8A200BAC02C /* DesafioListagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B81742A2EB8A200BAC02C /* DesafioListagem.swift */; };
+		5B7B81782A2EBF9100BAC02C /* DesafioInformadorClimatico.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B81772A2EBF9100BAC02C /* DesafioInformadorClimatico.swift */; };
+		5B7B817A2A2EC0B600BAC02C /* DesafioSeloIrmandade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B81792A2EC0B600BAC02C /* DesafioSeloIrmandade.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		5B7B81692A2EB7F100BAC02C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B7B816C2A2EB7F100BAC02C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5B7B81742A2EB8A200BAC02C /* DesafioListagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioListagem.swift; sourceTree = "<group>"; };
+		5B7B81772A2EBF9100BAC02C /* DesafioInformadorClimatico.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioInformadorClimatico.swift; sourceTree = "<group>"; };
+		5B7B81792A2EC0B600BAC02C /* DesafioSeloIrmandade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioSeloIrmandade.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				5B7B81732A2EB88400BAC02C /* Taguatinga */,
+				5B7B81762A2EBF5700BAC02C /* NovaYork */,
 				5B7B81652A2EB7F000BAC02C /* DesafiosIrmandadeSwiftApp.swift */,
 				5B7B81672A2EB7F000BAC02C /* ContentView.swift */,
 				5B7B81692A2EB7F100BAC02C /* Assets.xcassets */,
@@ -76,6 +81,15 @@
 				5B7B81742A2EB8A200BAC02C /* DesafioListagem.swift */,
 			);
 			path = Taguatinga;
+			sourceTree = "<group>";
+		};
+		5B7B81762A2EBF5700BAC02C /* NovaYork */ = {
+			isa = PBXGroup;
+			children = (
+				5B7B81772A2EBF9100BAC02C /* DesafioInformadorClimatico.swift */,
+				5B7B81792A2EC0B600BAC02C /* DesafioSeloIrmandade.swift */,
+			);
+			path = NovaYork;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +162,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B7B81782A2EBF9100BAC02C /* DesafioInformadorClimatico.swift in Sources */,
 				5B7B81682A2EB7F000BAC02C /* ContentView.swift in Sources */,
+				5B7B817A2A2EC0B600BAC02C /* DesafioSeloIrmandade.swift in Sources */,
 				5B7B81752A2EB8A200BAC02C /* DesafioListagem.swift in Sources */,
 				5B7B81662A2EB7F000BAC02C /* DesafiosIrmandadeSwiftApp.swift in Sources */,
 			);
