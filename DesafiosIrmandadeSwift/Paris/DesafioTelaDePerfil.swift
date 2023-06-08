@@ -4,6 +4,8 @@
 //
 //  Created by Rodrigo Oliveira on 28/02/23.
 //
+//
+// Desafio para replicar uma tela e realizar o estudo de Image's
 
 import SwiftUI
 
