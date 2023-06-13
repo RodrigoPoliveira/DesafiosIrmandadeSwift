@@ -15,6 +15,8 @@
 		5B7B81782A2EBF9100BAC02C /* DesafioInformadorClimatico.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B81772A2EBF9100BAC02C /* DesafioInformadorClimatico.swift */; };
 		5B7B817A2A2EC0B600BAC02C /* DesafioSeloIrmandade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B81792A2EC0B600BAC02C /* DesafioSeloIrmandade.swift */; };
 		5B9D668C2A38F4B900AD842A /* DesafioLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9D668B2A38F4B900AD842A /* DesafioLogin.swift */; };
+		5B9D668F2A38F7F500AD842A /* DesafioRGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9D668E2A38F7F500AD842A /* DesafioRGB.swift */; };
+		5B9D66912A38F88000AD842A /* RGBTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9D66902A38F88000AD842A /* RGBTransformer.swift */; };
 		5BD43E072A315431008D8C17 /* DesafioTelaDePerfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD43E062A315431008D8C17 /* DesafioTelaDePerfil.swift */; };
 		5BD43E0A2A3156AE008D8C17 /* DesafioDosEstados.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD43E092A3156AE008D8C17 /* DesafioDosEstados.swift */; };
 		5BD43E0C2A31573A008D8C17 /* DesafioHarryPotter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD43E0B2A31573A008D8C17 /* DesafioHarryPotter.swift */; };
@@ -30,6 +32,8 @@
 		5B7B81772A2EBF9100BAC02C /* DesafioInformadorClimatico.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioInformadorClimatico.swift; sourceTree = "<group>"; };
 		5B7B81792A2EC0B600BAC02C /* DesafioSeloIrmandade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioSeloIrmandade.swift; sourceTree = "<group>"; };
 		5B9D668B2A38F4B900AD842A /* DesafioLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioLogin.swift; sourceTree = "<group>"; };
+		5B9D668E2A38F7F500AD842A /* DesafioRGB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioRGB.swift; sourceTree = "<group>"; };
+		5B9D66902A38F88000AD842A /* RGBTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBTransformer.swift; sourceTree = "<group>"; };
 		5BD43E062A315431008D8C17 /* DesafioTelaDePerfil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioTelaDePerfil.swift; sourceTree = "<group>"; };
 		5BD43E092A3156AE008D8C17 /* DesafioDosEstados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioDosEstados.swift; sourceTree = "<group>"; };
 		5BD43E0B2A31573A008D8C17 /* DesafioHarryPotter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioHarryPotter.swift; sourceTree = "<group>"; };
@@ -70,6 +74,7 @@
 				5BD43E052A315183008D8C17 /* Paris */,
 				5BD43E082A315650008D8C17 /* SaoFrancisco */,
 				5B9D668A2A38F48900AD842A /* Londres */,
+				5B9D668D2A38F7C800AD842A /* Berlim */,
 				5B7B81652A2EB7F000BAC02C /* DesafiosIrmandadeSwiftApp.swift */,
 				5B7B81672A2EB7F000BAC02C /* ContentView.swift */,
 				5B7B81692A2EB7F100BAC02C /* Assets.xcassets */,
@@ -109,6 +114,15 @@
 				5B9D668B2A38F4B900AD842A /* DesafioLogin.swift */,
 			);
 			path = Londres;
+			sourceTree = "<group>";
+		};
+		5B9D668D2A38F7C800AD842A /* Berlim */ = {
+			isa = PBXGroup;
+			children = (
+				5B9D668E2A38F7F500AD842A /* DesafioRGB.swift */,
+				5B9D66902A38F88000AD842A /* RGBTransformer.swift */,
+			);
+			path = Berlim;
 			sourceTree = "<group>";
 		};
 		5BD43E052A315183008D8C17 /* Paris */ = {
@@ -203,6 +217,8 @@
 				5BD43E0C2A31573A008D8C17 /* DesafioHarryPotter.swift in Sources */,
 				5B7B81682A2EB7F000BAC02C /* ContentView.swift in Sources */,
 				5BD43E0A2A3156AE008D8C17 /* DesafioDosEstados.swift in Sources */,
+				5B9D66912A38F88000AD842A /* RGBTransformer.swift in Sources */,
+				5B9D668F2A38F7F500AD842A /* DesafioRGB.swift in Sources */,
 				5B7B817A2A2EC0B600BAC02C /* DesafioSeloIrmandade.swift in Sources */,
 				5B9D668C2A38F4B900AD842A /* DesafioLogin.swift in Sources */,
 				5B7B81752A2EB8A200BAC02C /* DesafioListagem.swift in Sources */,
