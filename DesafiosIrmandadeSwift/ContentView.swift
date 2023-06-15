@@ -8,19 +8,39 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var title = ""
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            TabView {
+                DesafiosView()
+                    .tabItem {
+                        Image(systemName: "trophy.fill")
+                        Text("Desafios")
+                    }
+                    .onAppear {
+                        title = "Desafios"
+                    }
+                
+                ExperimentosView()
+                    .tabItem {
+                        Image(systemName: "dumbbell.fill")
+                        Text("Experimentos")
+                    }
+                    .onAppear {
+                        title = "Experimentos"
+                    }
+                    
+            }
         }
-        .padding()
+        .navigationTitle(title)
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        NavigationStack {
+            ContentView()
+        }
     }
 }
