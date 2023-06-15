@@ -8,9 +8,17 @@
 import SwiftUI
 
 struct ExperimentosView: View {
+    @StateObject var experimentosViewModel = ExperimentosViewModel()
+    
     var body: some View {
         VStack{
-            Text("Experimentos View")
+            List{
+                ForEach(experimentosViewModel.experimentos, id: \.nome){ experimento in
+                    NavigationLink(destination: experimento.view) {
+                        Text(experimento.nome)
+                    }
+                }
+            }
         }
         .navigationTitle("Experimentos")
     }
