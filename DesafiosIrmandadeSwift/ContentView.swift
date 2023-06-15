@@ -30,7 +30,6 @@ struct ContentView: View {
                     .onAppear {
                         title = "Experimentos"
                     }
-                    
             }
         }
         .navigationTitle(title)

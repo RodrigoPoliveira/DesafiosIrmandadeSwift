@@ -32,11 +32,6 @@ struct DesafioRGB: View {
     
     var body: some View {
         VStack {
-            
-            Text("RGB Color")
-                .font(.system(.title, weight: .bold))
-                .padding()
-            
             Form {
                 Section("Tipo de seletor") {
                     Picker("Tipo de seletor", selection: $inputType) {
@@ -87,12 +82,15 @@ struct DesafioRGB: View {
                     .padding()
             }
         }
+        .navigationTitle("RGB Color")
     }
 }
 
 struct DesafioRGB_Previews: PreviewProvider {
     static var previews: some View {
-        DesafioRGB()
+        NavigationStack{
+            DesafioRGB()
+        }
     }
 }
 
