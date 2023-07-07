@@ -26,6 +26,7 @@
 		5B9D66A82A3A914400AD842A /* ExperimentoAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9D66A72A3A914400AD842A /* ExperimentoAnimation.swift */; };
 		5B9D66AA2A3A93D200AD842A /* ExperimentoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9D66A92A3A93D200AD842A /* ExperimentoModel.swift */; };
 		5B9D66AC2A3A94D700AD842A /* ExperimentosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9D66AB2A3A94D700AD842A /* ExperimentosViewModel.swift */; };
+		5BA237472A5793B800C42F75 /* CustomModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA237462A5793B800C42F75 /* CustomModifier.swift */; };
 		5BD43E072A315431008D8C17 /* DesafioTelaDePerfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD43E062A315431008D8C17 /* DesafioTelaDePerfil.swift */; };
 		5BD43E0A2A3156AE008D8C17 /* DesafioDosEstados.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD43E092A3156AE008D8C17 /* DesafioDosEstados.swift */; };
 		5BD43E0C2A31573A008D8C17 /* DesafioHarryPotter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD43E0B2A31573A008D8C17 /* DesafioHarryPotter.swift */; };
@@ -52,6 +53,7 @@
 		5B9D66A72A3A914400AD842A /* ExperimentoAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperimentoAnimation.swift; sourceTree = "<group>"; };
 		5B9D66A92A3A93D200AD842A /* ExperimentoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperimentoModel.swift; sourceTree = "<group>"; };
 		5B9D66AB2A3A94D700AD842A /* ExperimentosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperimentosViewModel.swift; sourceTree = "<group>"; };
+		5BA237462A5793B800C42F75 /* CustomModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifier.swift; sourceTree = "<group>"; };
 		5BD43E062A315431008D8C17 /* DesafioTelaDePerfil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioTelaDePerfil.swift; sourceTree = "<group>"; };
 		5BD43E092A3156AE008D8C17 /* DesafioDosEstados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioDosEstados.swift; sourceTree = "<group>"; };
 		5BD43E0B2A31573A008D8C17 /* DesafioHarryPotter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioHarryPotter.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 		5B9D66922A3903BB00AD842A /* Experimentos */ = {
 			isa = PBXGroup;
 			children = (
+				5BA237452A57939400C42F75 /* CustomModifiers */,
 				5B9D66A62A3A907400AD842A /* Animation */,
 				5B9D66952A39042300AD842A /* GeometryReader */,
 			);
@@ -206,6 +209,14 @@
 				5B9D66A72A3A914400AD842A /* ExperimentoAnimation.swift */,
 			);
 			path = Animation;
+			sourceTree = "<group>";
+		};
+		5BA237452A57939400C42F75 /* CustomModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				5BA237462A5793B800C42F75 /* CustomModifier.swift */,
+			);
+			path = CustomModifiers;
 			sourceTree = "<group>";
 		};
 		5BD43E052A315183008D8C17 /* Paris */ = {
@@ -303,6 +314,7 @@
 				5BD43E0A2A3156AE008D8C17 /* DesafioDosEstados.swift in Sources */,
 				5B9D66912A38F88000AD842A /* RGBTransformer.swift in Sources */,
 				5B9D668F2A38F7F500AD842A /* DesafioRGB.swift in Sources */,
+				5BA237472A5793B800C42F75 /* CustomModifier.swift in Sources */,
 				5B7B817A2A2EC0B600BAC02C /* DesafioSeloIrmandade.swift in Sources */,
 				5B9D66AC2A3A94D700AD842A /* ExperimentosViewModel.swift in Sources */,
 				5B9D668C2A38F4B900AD842A /* DesafioLogin.swift in Sources */,
